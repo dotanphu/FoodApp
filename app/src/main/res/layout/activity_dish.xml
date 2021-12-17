@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/spashscreen1"
+    tools:context=".activity.DishActivity">
+
+    <ImageView
+        android:id="@+id/imgPopcorn"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="93dp"
+        android:background="@drawable/ic_popcorn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTastyDish"
+        android:layout_width="225dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="37dp"
+        android:lineHeight="33dp"
+        android:text="Choose A Tasty Dish"
+        android:textAlignment="center"
+        android:textColor="#373737"
+        android:textFontWeight="500"
+        android:textSize="22dp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgPopcorn" />
+
+    <TextView
+        android:id="@+id/tvRestaurant"
+        android:layout_width="277dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="5dp"
+        android:lineHeight="25dp"
+        android:text="Order anything you want from your Favorite restaurant."
+        android:textAlignment="center"
+        android:textColor="#838383"
+        android:textFontWeight="400"
+        android:textSize="14dp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTastyDish" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="10dp"
+        android:layout_marginTop="67dp"
+        android:background="@drawable/ic_group1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvRestaurant" />
+
+    <android.widget.Button
+        android:id="@+id/btnNext"
+        android:layout_width="86dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="92dp"
+        android:layout_marginBottom="39dp"
+        android:background="@drawable/next"
+        android:text="next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/tvSkip"
+        android:layout_width="34dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="53dp"
+        android:text="Skip"
+        android:textAlignment="center"
+        android:textColor="#373737"
+        android:textFontWeight="500"
+        android:textSize="16dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/btnNext" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
