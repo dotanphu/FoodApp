@@ -16,5 +16,10 @@ class MoneyActivity : AppCompatActivity() {
             intent = Intent(this, RestaurantActivity::class.java)
             startActivity(intent)
         }
+
+        binding.tvSkip.setOnClickListener {
+            intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
