@@ -97,9 +97,9 @@
         android:layout_marginHorizontal="30dp"
         android:layout_marginTop="6dp"
         android:background="@drawable/item_email"
+        android:hint="sample@email.com"
         android:lineHeight="24dp"
         android:paddingLeft="23dp"
-        android:hint="sample@email.com"
         android:textColor="#373737"
         android:textFontWeight="400"
         android:textSize="16dp"
@@ -124,11 +124,13 @@
         app:layout_constraintTop_toBottomOf="@id/edtEmail" />
 
     <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/edtPass"
         android:layout_width="0dp"
         android:layout_height="55dp"
         android:layout_marginHorizontal="30dp"
         android:layout_marginTop="6dp"
         android:background="@drawable/item_email"
+        app:hintTextColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvPassword"
@@ -136,14 +138,65 @@
         app:passwordToggleTint="#838383">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/item_email"
+            android:hint="text password"
+            android:inputType="textPassword"
             android:paddingLeft="23dp"
-            android:paddingVertical="10dp"
-            android:text="textPassword" />
+            android:paddingBottom="10dp"
+            android:textSize="16dp" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
+    <android.widget.Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/item_signin"
+        android:text="Sign In"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textFontWeight="600"
+        android:textSize="17dp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edtPass" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:layout_marginHorizontal="56dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnSignIn">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Don’t have an account?"
+            android:textFontWeight="500"
+          android:gravity="right"
+            android:textSize="15dp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:gravity="right"
+            android:text="Register"
+            android:textColor="#373737"
+            android:textFontWeight="500"
+            android:textSize="15dp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
