@@ -11,7 +11,7 @@
         android:id="@+id/tvLogin"
         android:layout_width="60dp"
         android:layout_height="33dp"
-        android:layout_marginTop="59dp"
+        android:layout_marginTop="60dp"
         android:text="Login"
         android:textColor="#373737"
         android:textSize="22dp"
@@ -46,12 +46,14 @@
         app:layout_constraintTop_toBottomOf="@id/tvAccount">
 
         <ImageButton
+            android:id="@+id/imgGoogle"
             android:layout_width="wrap_content"
             android:layout_height="55dp"
             android:background="@drawable/google"
             android:src="@drawable/ic_google" />
 
         <ImageButton
+            android:id="@+id/imgFB"
             android:layout_width="55dp"
             android:layout_height="55dp"
             android:layout_marginLeft="15dp"
