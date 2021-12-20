@@ -14,6 +14,7 @@
         <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/drawable/item_email.xml" value="0.3828125" />
         <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/drawable/item_food.xml" value="0.3828125" />
         <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/drawable/item_getstart.xml" value="0.3828125" />
+        <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/drawable/item_list_food.xml" value="0.3828125" />
         <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/drawable/item_signin.xml" value="0.3828125" />
         <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/drawable/loginscreen.xml" value="0.3828125" />
         <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/drawable/next.xml" value="0.3828125" />
@@ -24,6 +25,7 @@
         <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />
         <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/layout/activity_money.xml" value="0.36666666666666664" />
         <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/layout/activity_restaurant.xml" value="0.36666666666666664" />
+        <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/layout/item_list_food.xml" value="0.36666666666666664" />
         <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/layout/next.xml" value="0.36666666666666664" />
       </map>
     </option>
