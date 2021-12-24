@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/llAdded"
+        android:layout_width="250dp"
+        android:layout_height="310dp"
+        android:background="@drawable/bg_added"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/ic_shoppingcart" />
+
+        <TextView
+            android:layout_width="138dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="56dp"
+            android:lineHeight="25dp"
+            android:text="Sucessfully added to cart"
+            android:textAlignment="center"
+            android:textColor="#6DC54A"
+            android:textFontWeight="500"
+            android:textSize="20dp"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+    <android.widget.Button
+        android:id="@+id/btnCheckOut"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/bg_checkoutnow"
+        android:lineHeight="25dp"
+        android:text="Check out now"
+        android:textAlignment="center"
+        android:textColor="#373737"
+        android:textFontWeight="600"
+        android:textSize="17dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="@+id/llAdded"
+        app:layout_constraintEnd_toEndOf="@+id/llAdded"
+        app:layout_constraintStart_toStartOf="@+id/llAdded"
+        app:layout_constraintTop_toBottomOf="@+id/llAdded" />
+
+
+</RelativeLayout>

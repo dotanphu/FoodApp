@@ -3,6 +3,7 @@ package com.dotanphu.foodapp.activity
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.dotanphu.foodapp.adapter.FoodAdapter
 import com.dotanphu.foodapp.databinding.ActivityHomeBinding
 import com.dotanphu.foodapp.model.Food
@@ -31,6 +32,5 @@ class HomeActivity : AppCompatActivity() {
         binding.rvPopular.adapter = adapter
         binding.rvPopular.layoutManager =
                 LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
-
     }
 }

@@ -4,7 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/drawable/anything.xml" value="0.3828125" />
+        <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/drawable/background_add.xml" value="0.3828125" />
+        <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/drawable/background_nocolor.xml" value="0.3828125" />
+        <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/drawable/bg_added.xml" value="0.3828125" />
         <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/drawable/bg_button.xml" value="0.3828125" />
+        <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/drawable/bg_checkoutnow.xml" value="0.3828125" />
         <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/drawable/button_color.xml" value="0.3828125" />
         <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/drawable/color.xml" value="0.3828125" />
         <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/drawable/google.xml" value="0.3828125" />
@@ -17,6 +21,7 @@
         <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/drawable/ic_pizza.xml" value="0.3828125" />
         <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/drawable/ic_rice.xml" value="0.3828125" />
         <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/drawable/ic_shopping.xml" value="0.3828125" />
+        <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/drawable/ic_shoppingcart.xml" value="0.3828125" />
         <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/drawable/ic_spashscreen.xml" value="0.3828125" />
         <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/drawable/item_email.xml" value="0.3828125" />
         <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/drawable/item_food.xml" value="0.3828125" />
@@ -32,6 +37,7 @@
         <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />
         <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/layout/activity_money.xml" value="0.36666666666666664" />
         <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/layout/activity_restaurant.xml" value="0.36666666666666664" />
+        <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/layout/added.xml" value="0.36666666666666664" />
         <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/layout/item_list_category.xml" value="0.36666666666666664" />
         <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/layout/item_list_food.xml" value="0.36666666666666664" />
         <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/layout/next.xml" value="0.36666666666666664" />
