@@ -3,14 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/drawable/anything.xml" value="0.3828125" />
+        <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/drawable/bg_button.xml" value="0.3828125" />
+        <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/drawable/button_color.xml" value="0.3828125" />
+        <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/drawable/color.xml" value="0.3828125" />
         <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/drawable/google.xml" value="0.3828125" />
         <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/drawable/ic_all.xml" value="0.3828125" />
         <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/drawable/ic_drink.xml" value="0.3828125" />
         <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/drawable/ic_eye.xml" value="0.3828125" />
         <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/drawable/ic_google.xml" value="0.3828125" />
+        <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/drawable/ic_home.xml" value="0.3828125" />
         <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/drawable/ic_loginscreen.xml" value="0.3828125" />
         <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/drawable/ic_pizza.xml" value="0.3828125" />
         <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/drawable/ic_rice.xml" value="0.3828125" />
+        <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/drawable/ic_shopping.xml" value="0.3828125" />
         <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/drawable/ic_spashscreen.xml" value="0.3828125" />
         <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/drawable/item_email.xml" value="0.3828125" />
         <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/drawable/item_food.xml" value="0.3828125" />
@@ -29,6 +35,7 @@
         <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/layout/item_list_category.xml" value="0.36666666666666664" />
         <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/layout/item_list_food.xml" value="0.36666666666666664" />
         <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/layout/next.xml" value="0.36666666666666664" />
+        <entry key="..\:/Ahoctap/FoodApp/app/src/main/res/menu/menu_activityhome.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>

@@ -157,4 +157,13 @@
         app:layout_constraintTop_toBottomOf="@id/tvPopularRestaurents">
 
     </androidx.recyclerview.widget.RecyclerView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/menu_activityhome" />
 </androidx.constraintlayout.widget.ConstraintLayout>
