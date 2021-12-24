@@ -3,6 +3,7 @@ package com.dotanphu.foodapp.activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Handler
 import com.dotanphu.foodapp.MainActivity
 import com.dotanphu.foodapp.databinding.ActivityIntroBinding
 
@@ -14,10 +15,9 @@ class IntroActivity : AppCompatActivity() {
         binding = ActivityIntroBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.btnGetStarted.setOnClickListener {
-            intent = Intent(this, DishActivity::class.java)
-            startActivity(intent)
-        }
-
+        Handler().postDelayed(Runnable {
+            startActivity(Intent(this, DishActivity::class.java))
+            finish()
+        }, 3000)
     }
 }
